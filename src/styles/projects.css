@@ -1,0 +1,29 @@
+.projects-container{
+    color: white;
+    margin:3%;
+}
+.project{
+    box-shadow: 2px 2px 3px 2px #333;
+    padding: 5%;
+    margin: 5%;
+}
+.project-heading{
+    display: flex;
+}
+.project-heading >a{
+    margin: 10px;
+}
+.tech-stack{
+    display: flex;
+}
+h3{
+    margin-top: 10px;
+}
+h4{
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.tech-stack>p{
+margin-left: 10px;
+margin-top: 6px;
+}

@@ -1,0 +1,17 @@
+.header{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+.nav{
+    color: white;
+    text-decoration: none;
+    margin-right: 3vw;
+    padding: 10px 15px 10px 15px;
+}
+.nav:hover{
+    background-color: rgb(37, 50, 165);
+    box-shadow: 2px 2px 4px rgb(37, 50, 165);
+}

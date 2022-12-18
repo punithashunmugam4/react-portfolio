@@ -1,0 +1,50 @@
+.home-container{
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-around;
+}
+.home-content{
+    width: 40%;
+}
+.home-content>p{
+    color: white;
+    font-size: 0.9rem;
+}
+.home-container span{
+    color: rgb(209, 66, 145);
+}
+.my-image img{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 0 13px #333;
+    width: 200px;
+}
+.allicons{
+    display: flex;
+    justify-content: space-between;
+}
+.allicons p{
+    font-size: 0.8rem;
+}
+.social-media-icons,.skills-icons{
+    display: flex;
+    justify-content: space-around;
+}
+.allicons i{
+    font-size: larger;
+}
+.icon-div{
+    color: white;
+    margin-right: 8px;
+    padding: 5px;
+    border-radius:3px ;
+    background-color: rgb(51, 51, 51);
+    box-shadow: 2px 2px 2px rgb(102, 99, 99);
+}
+i:hover{
+    color: rgb(209, 66, 145);
+}
+i:active{
+    color: green
+}
