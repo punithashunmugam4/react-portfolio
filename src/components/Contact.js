@@ -6,7 +6,7 @@ const Contact = () => {
     <div className='contact-container'>
       <div className='contact-details'>
         <label>Contact Number:</label>
-      <span> 343241</span><br/><br/>
+      <span> +91-9750214487</span><br/><br/>
       <label>Email:</label>
       <a href='mailto:punithashunmugam@gmail.com?subject=SubjectHere&content=content' target="blank" rel="noopener noreferrer"> punithashunmugam@gmail.com</a><br/><br/>
       </div>
