@@ -86,7 +86,7 @@ the website. Most of the tags are linked to a path.</p>
     <div className='project'>
         <div className='project-heading'>
       <h3>Tip Calculator | Newton School</h3>
-      <a href='https://ps-tip-calculator.netlify.app/' target='_blank'><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
+      <a href='https://ps-tip-calculator.netlify.app/' target='blank'><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
       </div>
       <div>
     <h4>Features:</h4>
