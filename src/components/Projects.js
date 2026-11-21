@@ -3,7 +3,9 @@ import '../styles/projects.css'
 
 const Projects = () => {
   return (
-    <div className='projects-container'>
+    <div className='projects-container page-shell'>
+      <p className="section-kicker">Selected work</p>
+      <h2 className="section-title">Projects</h2>
       <div className='project'>
         <div className='project-heading'>
       <h3>Movie booking app | Newton School</h3>

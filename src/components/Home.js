@@ -7,16 +7,20 @@ const Home = () => {
   return (
     <div className='home-container'>
       <div className='home-content'>
-      <p className='welcome'>WELCOME TO MY WORLD</p>
-      <h2 className='intro-name'>Hi, I'm <span>Punitha Shunmugam</span> React Developer.</h2>
-      <p>I am a front end developer. My goal is to work for a company where I can use my skills and gain more experience to increase output and raise the organization's profile.</p>
+      <p className='welcome'>React Developer</p>
+      <h1 className='intro-name'>Hi, I'm <span>Punitha Shunmugam.</span></h1>
+      <p className="intro-copy">I build responsive, thoughtful web experiences with React and modern JavaScript. My goal is to turn complex ideas into polished, accessible interfaces.</p>
+      <div className="hero-actions">
+        <a className="primary-action" href="/projects">View my work <i className="fa-solid fa-arrow-right"></i></a>
+        <a className="secondary-action" href="mailto:punithashunmugam4@gmail.com">Let's talk</a>
+      </div>
       <div className='allicons'>
         <div className='social-media'>
-          <p>Find me in</p>
+          <p>Find me</p>
           <SocialMedia/>
       </div>
       <div className='skills'>
-        <p>Best skills on</p>
+        <p>Core stack</p>
         <div className='skills-icons'>
         <a href='https://www.java.com/en/' target="blank" className='icon-div'><i className='fa-brands fa-java'></i></a>
       <a href='https://reactjs.org/' target="blank"  className='icon-div'><i className='fa-brands fa-react'></i></a>

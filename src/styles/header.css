@@ -1,17 +1,75 @@
-.header{
-    padding-top: 20px;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: flex-end;
-    background-color: rgba(0, 0, 0, 0.514);
+.header {
+  position: sticky;
+  top: 16px;
+  z-index: 20;
+  width: min(1180px, calc(100% - 48px));
+  height: 68px;
+  margin: 16px auto 0;
+  padding: 8px 10px 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(9, 11, 18, 0.72);
+  box-shadow: 0 16px 50px rgba(0, 0, 0, 0.24);
+  backdrop-filter: blur(18px);
 }
-.nav{
-    color: white;
-    text-decoration: none;
-    margin-right: 3vw;
-    padding: 10px 15px 10px 15px;
+
+.brand {
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  color: var(--text);
+  text-decoration: none;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  background: linear-gradient(135deg, rgba(167, 139, 250, 0.22), rgba(85, 217, 192, 0.12));
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.04em;
 }
-.nav:hover{
-    background-color: rgb(37, 50, 165);
-    box-shadow: 2px 2px 4px rgb(37, 50, 165);
+
+.navbar { display: flex; gap: 4px; }
+
+.nav {
+  position: relative;
+  padding: 12px 15px;
+  color: var(--muted);
+  text-decoration: none;
+  border-radius: 11px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  transition: color 180ms ease, background 180ms ease;
+}
+
+.nav:hover, .nav.active {
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.nav.active::after {
+  content: '';
+  position: absolute;
+  right: 15px;
+  bottom: 7px;
+  left: 15px;
+  height: 2px;
+  border-radius: 999px;
+  background: var(--accent-two);
+}
+
+@media (max-width: 700px) {
+  .header {
+    top: 8px;
+    width: calc(100% - 24px);
+    height: 62px;
+    margin-top: 8px;
+    padding-left: 8px;
+  }
+  .brand { width: 42px; height: 42px; }
+  .navbar { gap: 0; }
+  .nav { padding: 10px 8px; font-size: 0.78rem; }
+  .nav.active::after { right: 8px; left: 8px; }
 }

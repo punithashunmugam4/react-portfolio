@@ -3,8 +3,9 @@ import '../styles/education.css';
 
 const Education=()=>{
     return(
-        <div className="edu-container">
-            <h2>EDUCATIONAL QUALIFICATION</h2>
+        <div className="edu-container page-shell">
+            <p className="section-kicker">Academic background</p>
+            <h2 className="section-title">Education</h2>
             <table>
                 <thead>
                     <tr>
